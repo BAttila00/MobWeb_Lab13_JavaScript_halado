@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "Watch": {
+      "commandName": "Executable",
+      "executablePath": "dotnet",
+      "commandLineArgs": "watch run",
+      "launchBrowser": true,
+      "workingDirectory": "$(ProjectDir)",
+      "launchUrl": "https://localhost:7579"
+    },
+    "GuessWS": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7579/"
+    }
+  }
+}
